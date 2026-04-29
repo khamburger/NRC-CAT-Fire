@@ -1,0 +1,45 @@
+{
+  "output_file": "results.csv",
+  "sample_rate": 1000,
+  "samples_per_measurement": 100,
+  "relay_settling_time": 0.02,
+
+  "cable": {
+    "name": "Cable_A",
+    "ai_channel": "cDAQ9185-2409D60Mod4/ai0",
+
+    "conductors": [
+      {
+        "id": 1,
+        "source_do": "cDAQ9185-2409D60Mod1/port0/line0",
+        "measure_do": "cDAQ9185-2409D60Mod1/port0/line16"
+      },
+      {
+        "id": 2,
+        "source_do": "cDAQ9185-2409D60Mod1/port0/line1",
+        "measure_do": "cDAQ9185-2409D60Mod1/port0/line17"
+      },
+      {
+        "id": 3,
+        "source_do": "cDAQ9185-2409D60Mod1/port0/line2",
+        "measure_do": "cDAQ9185-2409D60Mod1/port0/line18"
+      },
+      {
+        "id": 4,
+        "source_do": "cDAQ9185-2409D60Mod1/port0/line3",
+        "measure_do": "cDAQ9185-2409D60Mod1/port0/line19"
+      },
+      {
+        "id": 5,
+        "source_do": "cDAQ9185-2409D60Mod1/port0/line4",
+        "measure_do": "cDAQ9185-2409D60Mod1/port0/line20"
+      },
+      {
+        "id": 6,
+        "source_do": "cDAQ9185-2409D60Mod1/port0/line5",
+        "measure_do": "cDAQ9185-2409D60Mod1/port0/line21"
+      }
+
+    ]
+  }
+}
