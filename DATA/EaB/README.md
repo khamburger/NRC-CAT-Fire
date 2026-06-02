@@ -2,8 +2,10 @@
  
 `Sample_Mass.csv` contains the masses of cable samples tested
 
-`EaB_Analysis_2.py` is a Python script that is used to measure the stretch of the samples based on video recordings.
+`EaB_Results_TS_Jacket.csv` contains the EaB results for the thermoset cable jacket.
 
-`EaB_Results_TS.csv` contains the EaB results for the thermoset cable.
+`EaB_Results_TP_Jacket.csv` contains the EaB results for the thermoplastic cable jacket.
 
-`EaB_Results_TP.csv` contains the EaB results for the thermoplastic cable.
+`EaB_Results_TS_Insulation.csv` contains the EaB results for the thermoset cable insulation.
+
+`EaB_Results_TP_Insulation.csv` contains the EaB results for the thermoplastic cable insulation.
